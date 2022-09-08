@@ -1,0 +1,26 @@
+{
+  "name": "03_proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node index",
+    "dev": "cross-env NODE_ENV=development npx nodemon index.js",
+    "test": "cross-env NODE_ENV=test mocha",
+    "lint:fix": "eslint --fix .",
+    "lint:check": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "eslint": "^8.23.0",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.2"
+  }
+}
